@@ -1,0 +1,119 @@
+body {
+    font-family: 'Papyrus', 'Comic Sans MS', sans-serif;
+    background-color: #f4f1d0;
+    color: #2e2e2e;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://previews.123rf.com/images/khurrammumtaz/khurrammumtaz1801/khurrammumtaz180100110/93267198-textura-y-patr%C3%B3n-de-madera-textura-rocosa-y-arenosa-utilizada-para-fines-de-construcci%C3%B3n-interior.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(138, 109, 59, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px; /* Ajuste de fuente para h1 */
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 24px; /* Ajuste de fuente para h2 */
+    color: #4b3f28;
+    border-bottom: 2px solid #8a6d3b;
+}
+
+p, ul {
+    font-size: 18px; /* Ajuste de fuente para los párrafos */
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(138, 109, 59, 0.8);
+    color: #ffffff;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p, ul {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p, ul {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+}
